@@ -1,7 +1,7 @@
 {
   "name": "@geomelon/germany",
-  "version": "1.0.0",
-  "description": "Geomelon city/region/country data for Germany — 29924 cities, multilingual names, sourced from Wikidata.",
+  "version": "1.0.1",
+  "description": "Geomelon city/region/country data for Germany — 50000 cities, multilingual names, sourced from Wikidata.",
   "keywords": [
     "geomelon",
     "cities",

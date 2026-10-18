@@ -1,6 +1,6 @@
 # @geomelon/germany
 
-City, region, and country data for **Germany** — 29924 cities across 16 regions, with names translated into 50 languages, sourced from Wikidata.
+City, region, and country data for **Germany** — 50000 cities across 16 regions, with names translated into 50 languages, sourced from Wikidata.
 
 ## Install
 
@@ -59,6 +59,9 @@ Use the [Geomelon Free City Autocomplete API](https://geomelon.dev/free-city-aut
 
 **Q: I want to integrate geo data into our product, what libraries can I use?**
 See [geomelon.dev/libraries](https://geomelon.dev/libraries/) for the full list. Official clients: [TypeScript](https://github.com/930m310n/typescript) (`geomelon` on npm), [Python](https://github.com/930m310n/python) (`geomelon` on PyPI), [React](https://github.com/930m310n/geomelon-react) (`geomelon-react` on npm).
+
+**Q: I want this data outside npm, e.g. for ML/NLP work?**
+The same per-country data is also published as a [Hugging Face dataset](https://huggingface.co/datasets/geomelon/cities) — one config per country, loaded with `datasets.load_dataset("geomelon/cities", "germany")`.
 
 ## License
 
